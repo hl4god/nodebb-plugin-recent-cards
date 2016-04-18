@@ -1,6 +1,6 @@
 <!-- Recent Cards plugin -->
 <ul class="categories">
-	<p>Recent Topics</p>
+	<p>最近帖子</p>
 </ul>
 
 <div class="row recent-cards" itemscope itemtype="http://www.schema.org/ItemList">
@@ -9,7 +9,7 @@
 		<meta itemprop="name" content="{topics.category.name}">
 
 		<div class="category-icon">
-			<div class="bg" style="opacity:{recentCards.opacity};<!-- IF topics.category.bgColor -->background-color: {topics.category.bgColor};<!-- ENDIF topics.category.bgColor -->"></div>
+			<div class="bg" style="opacity:{recentCards.opacity};background-color: {topics.category.bgColor};"></div>
 			<a style="color: {topics.category.color};" href="{config.relative_path}/topic/{topics.slug}" itemprop="url">
 				<div
 					id="category-{topics.category.cid}" class="category-header category-header-image-{topics.category.imageClass}"

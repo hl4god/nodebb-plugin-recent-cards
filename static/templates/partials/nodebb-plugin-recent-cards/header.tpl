@@ -9,7 +9,7 @@
 		<meta itemprop="name" content="{topics.category.name}">
 
 		<div class="category-icon">
-			<div class="bg" style="opacity:{recentCards.opacity};<!-- IF topics.category.image -->background-image: url({topics.category.image});<!-- ELSE --><!-- IF topics.category.bgColor -->background-color: {topics.category.bgColor};<!-- ENDIF topics.category.bgColor --><!-- ENDIF topics.category.image -->"></div>
+			<div class="bg" style="opacity:{recentCards.opacity};<!-- IF topics.category.bgColor -->background-color: {topics.category.bgColor};<!-- ENDIF topics.category.bgColor -->"></div>
 			<a style="color: {topics.category.color};" href="{config.relative_path}/topic/{topics.slug}" itemprop="url">
 				<div
 					id="category-{topics.category.cid}" class="category-header category-header-image-{topics.category.imageClass}"
